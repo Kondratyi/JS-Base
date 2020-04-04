@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    'use strict';
+    let a = +prompt("Введите число");
+    let b = +prompt("Введите число");
+    if (a >= 0 && b >= 0) {
+        alert(a - b);
+    } else if (a < 0 && b < 0) {
+        alert(a * b);
+    } else  if (Math.sign(a) != Math.sign(b)) {
+        alert(a + b);
+    }
+</script>
+
+</body>
+</html>
