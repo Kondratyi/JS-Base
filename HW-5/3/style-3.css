@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.show-button {
+    font-size: 24px;
+    text-align: left;
+}
+
+.popup-window {
+    display: none;
+    border: 2px solid green;
+    background-color: darkseagreen;
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
+
+.hide-button {
+    font-size: 16px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
